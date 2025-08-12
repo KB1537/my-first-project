@@ -13,9 +13,9 @@ Accent 2: Sage Green (#81B29A)
 
 /* wildcard selector to override defalut stylings*/
 *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+    padding:10;
+    margin:10;
+    box-sizing: border-box ;
 }
 
 /*General styles*/
@@ -28,16 +28,32 @@ body{
 
 header a{
     text-decoration: none;
+    background-color: #333333;/*charcoal*/
 }
 
 main{
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
+/*hero section*/
+#hero{
+    height:600px;
+    width:100%;
+    background:url(../images/hero_img.avif)no-repeat center center/cover ;
+}
+
+/*footer*/
 #social-networks{
     text-align: center;
     padding: 20px 0 ;
     display: flex;
     justify-content:space-evenly;
     list-style-type:none;
+    background-color: #FAFAFA;/*warm grey*/
+}
+
+#social-networks i{
+    font-size: 150%;
+    padding: 5%;
 }
