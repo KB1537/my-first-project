@@ -26,6 +26,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+} 
+
+
 header a{
     text-decoration: none;
     background-color: #333333;/*charcoal*/
@@ -41,16 +49,34 @@ main{
     height:600px;
     width:100%;
     background:url(../images/hero_img.avif)no-repeat center center/cover ;
+    position: relative;
 }
 
-/*footer*/
+
+#cover-text{
+    background-color: rgba(21, 27, 31, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding: 40px;
+    padding-left: 10px;
+}
+
+#cover-text >h2, #cover-text > h3{
+    color: #ffffff
+}
+
+
+/*Footer*/
 #social-networks{
     text-align: center;
     padding: 20px 0 ;
     display: flex;
     justify-content:space-evenly;
     list-style-type:none;
-    background-color: #FAFAFA;/*warm grey*/
+    background-color: #ffff/*warm grey*/
 }
 
 #social-networks i{
