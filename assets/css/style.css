@@ -35,6 +35,15 @@ h3 {
 
 }
 
+/*navbar*/
+#navbar {
+    background-color: #333333;
+}
+
+#navbar .logo{
+    width: 40px; ;
+    color: #ffffff;
+}
 
 header a {
     text-decoration: none;
