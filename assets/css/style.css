@@ -111,8 +111,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #ffff
-        /*warm grey*/
+    background-color: #ffff /*White*/
 }
 
 #social-networks i {
