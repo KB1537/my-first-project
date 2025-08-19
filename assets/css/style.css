@@ -18,6 +18,10 @@ Accent 2: Sage Green (#81B29A)
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*CSS variables*/
 :root{
 
@@ -48,6 +52,10 @@ h3 {
     text-transform: uppercase;
 
 }
+
+h2{
+    margin-bottom: 2rem;
+}
 .Accent-2{
     color: var(--Accent-1)
 }
@@ -63,8 +71,7 @@ h3 {
 /*header*/
 header a {
     text-decoration: none;
-    background-color: #333333;
-    /*charcoal*/
+    background-color: #333333; /*charcoal*/
 }
 
 .hero{
@@ -78,6 +85,12 @@ main {
     /* margin-top:47px;*/
 }
 
+
+/*Services*/
+#services .card{
+    margin-bottom: 1rem;
+}
+
 /*hero section
 #hero {
     height: 600px;
@@ -86,17 +99,6 @@ main {
     position: relative;
 } */
 
-
-#cover-text {
-    background-color: rgba(21, 27, 31, .7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding: 40px;
-    padding-left: 10px;
-}
 
 #cover-text>h2,
 #cover-text>h3 {
@@ -117,4 +119,12 @@ main {
 #social-networks i {
     font-size: 150%;
     padding: 5%;
+}
+
+/*Media queries*/
+@media screen and (min-width: 768px) {
+    #services .card-body{
+        min-height: 190px;
+    }
+    
 }
