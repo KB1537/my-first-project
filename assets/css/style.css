@@ -122,9 +122,27 @@ main {
 }
 
 /*Media queries*/
+/*tablets*/
 @media screen and (min-width: 768px) {
     #services .card-body{
         min-height: 190px;
+    }
+    
+
+}
+
+/*xl screens*/
+@media screen and (min-width: 1200px) {
+    #services .card-body{
+        min-height: 220px;
+    }
+    
+}
+
+/*xxl screens*/
+@media screen and (min-width: 1400px) {
+    #services .card-body{
+        min-height: 195px;
     }
     
 }
