@@ -73,7 +73,10 @@ header a {
     text-decoration: none;
     background-color: #333333; /*charcoal*/
 }
-
+.btn-primary{
+    background-color: var(--Accent-1);
+    border: none;
+}
 .hero{
     width: 400px;
     height: 400px;
