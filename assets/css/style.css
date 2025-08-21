@@ -82,7 +82,7 @@ header a {
 }
 main {
     flex: 1 0 auto;
-    /* margin-top:47px;*/
+     margin-top:47px;
 }
 
 
@@ -90,14 +90,6 @@ main {
 #services .card{
     margin-bottom: 1rem;
 }
-
-/*hero section
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url(../images/hero_img.avif)no-repeat center center/cover;
-    position: relative;
-} */
 
 
 #cover-text>h2,
@@ -107,18 +99,31 @@ main {
 
 
 /*Footer*/
+
+
+#contact{
+    background-color: var(--Primary-color);
+    color: #FAFAFA;
+    padding-bottom: 3rem;
+}
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #ffff /*White*/
+    background-color: var(--Primary-color) 
 }
 
 #social-networks i {
     font-size: 150%;
     padding: 5%;
+    color: var(--Accent-1);
+
+}
+
+#contact .table-dark *{
+    background-color: transparent;
 }
 
 /*Media queries*/
