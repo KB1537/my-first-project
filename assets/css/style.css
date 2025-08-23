@@ -18,22 +18,32 @@ Accent 2: Sage Green (#81B29A)
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /*CSS variables*/
-:root{
+:root {
 
- --Primary-color:  /*charcoal*/ #333333;
+    --Primary-color:
+        /*charcoal*/
+        #333333;
 
- --Secondary-color: /*Off-White*/ #FAFAFA;
+    --Secondary-color:
+        /*Off-White*/
+        #FAFAFA;
 
- --Neutral-color : /*Warm Gray*/ #B3B3B3;
+    --Neutral-color:
+        /*Warm Gray*/
+        #B3B3B3;
 
- --Accent-1: /*Terracotta*/ #E07A5F;
+    --Accent-1:
+        /*Terracotta*/
+        #E07A5F;
 
- --Accent-2: /*Sage Green*/ #81B29A;
+    --Accent-2:
+        /*Sage Green*/
+        #81B29A;
 }
 
 /*General styles*/
@@ -53,44 +63,52 @@ h3 {
 
 }
 
-h2{
+h2 {
     margin-bottom: 2rem;
 }
-.Accent-2{
+
+.Accent-2 {
     color: var(--Accent-1)
 }
+
 /*navbar*/
 #navbar {
     background-color: #333333;
 }
 
-#navbar .logo{
-    width: 40px; ;
+#navbar .logo {
+    width: 40px;
+    ;
     color: #ffffff;
 }
+
 /*header*/
 header a {
     text-decoration: none;
-    background-color: #333333; /*charcoal*/
+    background-color: #333333;
+    /*charcoal*/
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--Accent-1);
     border: none;
 }
-.hero{
+
+.hero {
     width: 400px;
     height: 400px;
     padding-top: 10px;
     object-fit: cover;
 }
+
 main {
     flex: 1 0 auto;
-     margin-top:47px;
+    margin-top: 47px;
 }
 
 
 /*Services*/
-#services .card{
+#services .card {
     margin-bottom: 1rem;
 }
 
@@ -104,18 +122,19 @@ main {
 /*Footer*/
 
 
-#contact{
+#contact {
     background-color: var(--Primary-color);
     color: #FAFAFA;
     padding-bottom: 3rem;
 }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: var(--Primary-color) 
+    background-color: var(--Primary-color)
 }
 
 #social-networks i {
@@ -125,32 +144,36 @@ main {
 
 }
 
-#contact .table-dark *{
+#contact .table-dark * {
     background-color: transparent;
 }
+
+
+
+
 
 /*Media queries*/
 /*tablets*/
 @media screen and (min-width: 768px) {
-    #services .card-body{
+    #services .card-body {
         min-height: 190px;
     }
-    
+
 
 }
 
 /*xl screens*/
 @media screen and (min-width: 1200px) {
-    #services .card-body{
+    #services .card-body {
         min-height: 220px;
     }
-    
+
 }
 
 /*xxl screens*/
 @media screen and (min-width: 1400px) {
-    #services .card-body{
+    #services .card-body {
         min-height: 195px;
     }
-    
+
 }
