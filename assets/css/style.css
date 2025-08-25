@@ -153,6 +153,7 @@ main {
 
 
 /*Media queries*/
+
 /*tablets*/
 @media screen and (min-width: 768px) {
     #services .card-body {
