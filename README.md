@@ -109,4 +109,8 @@ contact@thecove.net
  * Source: Deploy from a branch, 
  * Branch: main (or master) → /root
 
-  
+## Credits 
+Content
+the code for the social media icons was taken from the love running project.
+
+the code for the framework was taken from the broadwalk games project.
