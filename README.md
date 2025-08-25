@@ -54,18 +54,16 @@ Includes address, phone, email, opening times, and social links.
 
 
 
-Custom Styling – Additional styles applied via assets/css/style.css.
+## Custom Styling 
+ Additional styles applied via assets/css/style.css.
 
 
+## Favicon Support
 
-
-
-
-
-Favicon Support – Multi-size favicons included for better browser support.
+Multi-size favicons included for better browser support.
  used for icons in contact section and social media links
 
-Technologies Used
+## Technologies Used
 
 HTML5 – Semantic structure
 
@@ -81,11 +79,12 @@ Google Maps Embed API – Location map
 
  
  
- Contact
+## Contact
 
-The Cove
-128 Leicester Square, London, W1D 6AP
-020 4923 1129
+The Cove  
+128 Leicester Square, London,  
+W1D 6AP      
+020 4923 1129  
 contact@thecove.net
 
 
